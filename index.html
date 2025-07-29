@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo a Passo - Emissão de Nota Fiscal de Serviço</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="imagens/logogaffa.png" alt="Logogaffa Logo">
+            </div>
+            <h1 class="main-title">Passo a Passo - Emissão de Nota Fiscal de Serviço</h1>
+            <p class="subtitle">Prefeitura de São Paulo - Empresa Optante Simples - Código de Serviço 1899</p>
+        </header>
+
+        <div class="progress-bar">
+            <div class="progress-step active" data-step="1">
+                <div class="step-number">1</div>
+                <span>Acesso ao Site</span>
+            </div>
+            <div class="progress-step" data-step="2">
+                <div class="step-number">2</div>
+                <span>Certificado</span>
+            </div>
+            <div class="progress-step" data-step="3">
+                <div class="step-number">3</div>
+                <span>Dados do Tomador</span>
+            </div>
+            <div class="progress-step" data-step="4">
+                <div class="step-number">4</div>
+                <span>Dados do Serviço</span>
+            </div>
+            <div class="progress-step" data-step="5">
+                <div class="step-number">5</div>
+                <span>Finalização</span>
+            </div>
+        </div>
+
+        <main class="content">
+            <!-- Passo 1 -->
+            <section class="step-section" id="step-1">
+                <div class="step-header">
+                    <div class="step-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h2>Passo 1: Acesso ao Site da Prefeitura</h2>
+                </div>
+                <div class="step-content">
+                    <div class="instruction">
+                        <p>Acesse o site oficial da Prefeitura de São Paulo para emissão de notas fiscais:</p>
+                        <div class="link-box">
+                            <a href="https://notadomilhao.prefeitura.sp.gov.br/" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                https://notadomilhao.prefeitura.sp.gov.br/
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                       <div class="image-placeholder">
+                           <img src="imagens/acessopf.png" alt="Acesso">
+                      </div>
+                      <span>Imagem da interface do site</span>
+                      <small>Referência: imagens/logogaffa.png e media/image2.png</small>
+                      </div>
+                </div>
+            </section>
+
+            <!-- Passo 2 -->
+            <section class="step-section" id="step-2">
+                <div class="step-header">
+                    <div class="step-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h2>Passo 2: Certificado Digital</h2>
+                </div>
+                <div class="step-content">
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div>
+                            <strong>Importante:</strong> O certificado deve estar instalado no computador antes de prosseguir.
+                            <br><small>Passo a passo de instalação enviado no e-mail junto com o certificado.</small>
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <p>Encontre e selecione o certificado da empresa:</p>
+                    <div>
+                       <div class="image-placeholder">
+                           <img src="imagens/selecao.png" alt="certificado">
+                           <img src="imagens/certificado.png" alt="certificado">
+                           
+                      </div>
+                   <span>Encontrar o certificado da empresa/Selecioná-lo/ "OK"</span>
+                   <small>Agora clique em "Acessar o Sistema" e vá em Emissão de NFS-e.</small>
+                   </div>
+                </div>
+            </section>
+
+            <!-- Passo 3 -->
+            <section class="step-section" id="step-3">
+                <div class="step-header">
+                    <div class="step-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h2>Passo 3: Dados do Tomador do Serviço</h2>
+                </div>
+                <div class="step-content">
+                    <div class="instruction">
+                        <p>Preencha o CNPJ ou CPF do tomador do serviço e clique em <strong>AVANÇAR</strong>.</p>
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            <strong>Observação sobre Local de Incidência:</strong>
+                            <br>Deve ser preenchido de acordo com o local do serviço prestado.
+                            <br>Este passo a passo considera o serviço prestado dentro do município de São Paulo.
+                        </div>
+                    </div>
+
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div>
+                            <strong>Atenção:</strong> Quando prestar serviços fora do município de São Paulo, a tratativa tributária e emissão do documento é diferente!
+                        </div>
+                    </div>
+
+                    <div class="instruction">
+                        <p><strong>Importante:</strong> Tenha em mãos os dados cadastrais da pessoa jurídica ou física para preenchimento, caso a mesma ainda não tenha cadastro na prefeitura de São Paulo.</p>
+                        <p>Caso não traga os dados automaticamente da empresa/pessoa tomadora do serviço, é necessário realizar o preenchimento manualmente.</p>
+                    </div>
+
+                      <div class="image-placeholder">
+                           <img src="imagens/emissao.png" alt="emissao">
+                      </div>
+                   <span>Clique em Avançar depois que colocar o CNPJ do Tomador, se for CNPJ, ou CPF se for CPF./ "OK"</span>
+                   <small>Verifique se os dados estão corretos na janela que se abre e continue com o preencimento da nota.</small>
+                   </div>
+                </div>
+            </section>
+
+            <!-- Passo 4 -->
+            <section class="step-section" id="step-4">
+                <div class="step-header">
+                    <div class="step-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h2>Passo 4: Dados do Serviço</h2>
+                </div>
+                <div class="step-content">
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            A empresa ENS FONOAUDIOLOGIA usa o código 4472 para emissão de nota referente ao serviço de "Fonoaudiologia".
+                            <br><strong>Este passo a passo mostra apenas o exemplo de emissão sobre o código 4472, correspondente ao CNAE principal da empresa 86.50-0-06 - Atividades de fonoaudiologia.</strong>
+                        </div>
+                    </div>
+
+                    <div class="form-fields">
+                        <div class="field-group">
+                            <h3><i class="fas fa-edit"></i> Campos Obrigatórios:</h3>
+                            <ul class="checklist">
+                                <li><i class="fas fa-check"></i> <strong>Descrição do serviço:</strong> Fica a critério da empresa o que escrever sobre a prestação do serviço. <br>Para Exemplo: Geralmente a gente escreve " Serviços Prestados Refente ao mês 06/2025"</li>
+                                <li><i class="fas fa-check"></i> <strong>Valor do serviço:</strong> Informar o valor total</li>
+                                <li><i class="fas fa-check"></i> <strong>ISS Retido pelo Tomador:</strong> Para serviços prestados dentro do município de São Paulo com código 4472, NÃO há retenção do ISS</li>
+                                <li><i class="fas fa-check"></i> <strong>Veja abaixo a nota de exemplo que foi emitida para o tomador "INTEGRARE SERVICOS DIAGNOSTICOS"</strong> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="image-placeholder">
+                           <img src="imagens/obrigatorio.png" alt="emissao">
+                           <img src="imagens/notaexemplo.png" alt="emissao">
+                      </div>
+                   <span>Anteção! você acabou de ver um exemplo real acima. Mais para frente verá como preecher os campos com o "Valor Aproximado da Carga Tributária(R$)", "Percentual da Carga Tributária(%)" e "Fonte da Carga Tributária(IBPT)".<br>
+                   <strong>Fique tranquilo(a), Parece muita coisa, mas logo você pegará a prática!😀</strong></span>
+                   <small><strong>Veja abaixo o Cálculo para o Código 4472. "OPs!, Vou usar o Valor Total de R$1.000,00 Mil reais como exemplo!" <strong/></small>
+                   </div>
+
+                    <div class="info-box">
+                        <h3><i class="fas fa-info-circle"></i> Informações Complementares</h3>
+                        <p>Ao clicar na opção <strong>"EXIBIR INFORMAÇÕES COMPLEMENTARES"</strong>, irá mostrar abas sobre retenções de impostos federais.</p>
+                        <p>Empresas optantes do Simples <strong>NÃO</strong> realizam retenção de PIS/COFINS/IR/CSLL nos serviços prestados, porém há a possibilidade de retenção do INSS (que vai de acordo com o código do serviço prestado).</p>
+                        <p><strong>O código 4472 NÃO há retenção deste imposto.</strong></p>
+                        <p class="highlight">Portanto, emissões com o código 4472, esses campos NÃO devem ser preenchidos.</p>
+                    </div>
+
+                    <div class="image-placeholder">
+                           <img src="imagens/ex1.png" alt="ex1">
+                      </div>
+                </div>
+            </section>
+
+            <!-- Passo 5 -->
+            <section class="step-section" id="step-5">
+                <div class="step-header">
+                    <div class="step-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h2>Passo 5: Cálculo de Tributos e Finalização</h2>
+                </div>
+                <div class="step-content">
+                    <div class="law-info">
+                        <h3><i class="fas fa-gavel"></i> Lei n.º 12.741/2012</h3>
+                        <p>Estabelece que, na nota fiscal ou documento equivalente fornecida ao consumidor, deverá constar obrigatoriamente o valor aproximado dos tributos federais que varia de acordo com o código de serviço.</p>
+                    </div>
+
+                    <div class="calculation-box">
+                        <h3><i class="fas fa-percentage"></i> Cálculo para Código 4472</h3>
+                        <div class="calc-info">
+                            <p><strong>Porcentual aproximado das tributações:</strong> <span class="percentage">15,59%</span></p>
+                            <div class="formula">
+                                <strong>Fórmula:</strong> Valor da Nota × Porcentual = Resultado
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="example-box">
+                        <h3><i class="fas fa-example"></i> Exemplo de Cálculo</h3>
+                        <div class="calc-example">
+                            <p>Se o valor do serviço for R$ 1.000,00:</p>
+                            <p class="calc-step">R$ 1.000,00 × 15,59% = R$ 155,90</p>
+                            <p class="result">Valor aproximado dos tributos: <strong>R$ 155,90</strong></p>
+                        </div>
+                    </div>
+
+                      <div class="image-placeholder">
+                           <img src="imagens/ex2.png" alt="ex2">
+                      </div>
+
+                    <div class="final-step">
+                        <div class="success-message">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Finalização</h3>
+                            <p>Após preencher todos os campos obrigatórios e calcular os tributos, clique em <strong>"EMITIR NOTA FISCAL"</strong> para concluir o processo.<br>
+                               <strong>😄Evelyn!, Se ainda ficar com dúvidas, gostaria de informar que estamos à disposição.<strong/></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imagens/logogaffa.png" alt="Logogaffa Logo">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Gaffa Contabilidade - Todos os direitos reservados</p>
+                    <p>Passo a passo para emissão de Nota Fiscal de Serviço - Prefeitura de São Paulo</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
